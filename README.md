@@ -4,7 +4,11 @@
 [![Analysis Mode](https://img.shields.io/badge/Execution-100%25_Browser--Local-10b981.svg)](#)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-v15.1_Enterprise-f43f5e.svg)](#)
 [![CTI Standard](https://img.shields.io/badge/Threat_Intel-STIX_2.1-8b5cf6.svg)](#)
+[![Live Demo](https://img.shields.io/badge/Vercel-Live_Workbench-000000.svg?logo=vercel)](https://huntforge-seven.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#)
+
+> **Live Deployment:** [https://huntforge-seven.vercel.app](https://huntforge-seven.vercel.app)  
+> **Source Code:** [https://github.com/GorillaBrain/huntforge](https://github.com/GorillaBrain/huntforge)
 
 **HuntForge** is an offline-capable, browser-local defensive threat hunting workbench designed for SOC analysts, incident responders, and detection engineers. It enables deep log ingestion, canonical normalization, tactical querying with the **Hunt Query Language (HQL)**, deterministic rule execution, multi-event attack correlation, interactive topology graphing, and standardized STIX 2.1 intelligence generation — with **zero server dependencies and 100% memory-local privacy**.
 
