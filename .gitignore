@@ -1,7 +1,30 @@
 .DS_Store
 Thumbs.db
 node_modules/
+dist/
 .vercel/
 *.log
 
-.vercel
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Tests and test artifacts
+test-results/
+playwright-report/
+
+# Local data and secrets
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+*.tsbuildinfo
+

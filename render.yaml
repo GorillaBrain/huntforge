@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: huntforge-api
+    runtime: docker
+    dockerContext: backend
+    dockerfilePath: backend/Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: HUNTFORGE_CORS_ORIGINS
+        sync: false   # set to your Vercel URL, e.g. https://huntforge-seven.vercel.app
+      - key: HUNTFORGE_DB_PATH
+        value: /app/data/huntforge.db
